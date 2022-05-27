@@ -2,7 +2,7 @@ body {
   font-family: 'Lato', sans-serif;
   margin: 0;
   height: 100vh;
-  background: no-repeat url(/fondo.jpg);
+  background: no-repeat url(/img/fondo.jpg);
   background-size: cover;
 }
 
@@ -17,7 +17,7 @@ body {
 .list {
   margin: 25px auto;
   padding: 25px;
-  background-image: url(/container.png);
+  background-image: url(/img/container.png);
   background-size: cover;
   color: #fff;
   width: 100%;
@@ -117,5 +117,28 @@ input:focus {
   background-color: #e7e7e7;
   text-decoration: line-through;
   color: #000;
+}
+
+.contador {
+  display: inline-block;
+  padding: 10px 5px;
+  border-radius: 30px;
+}
+
+.minutes,
+.tuki,
+.seconds {
+  font-weight: bold;
+}
+
+.contadorBtn {
+  width: 35px;
+  height: 28px;
+  margin-left: 10px;
+  border-radius: 20%;
+  border: none;
+  cursor: pointer;
+  background: #ae8c57;
+  color: #fff;
 }
 /*# sourceMappingURL=styles.css.map */
