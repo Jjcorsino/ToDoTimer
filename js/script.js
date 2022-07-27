@@ -28,6 +28,7 @@ const addNewTask = event => {
     event.target.reset();
 };
 
+
 // Tarea finalizada
 const changeTaskState = event => {
     event.target.classList.toggle('done');
